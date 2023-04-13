@@ -269,7 +269,7 @@ a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 36px;
     color: #FFFFFF; 
 }
 
@@ -364,6 +364,143 @@ a {
 
 
 /* About page end */
+
+
+/* Commands page start */
+
+.commands-section .section-heading h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.commands-section .commands-card {
+    background: #242528;
+    border-radius: 12px;
+    padding: 30px;
+    color: #fff;
+}
+
+.commands-section .commands-card p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.commands-section .commands-card .usage small {
+    font-family: 'Poppins';
+    margin-bottom: 6px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787;
+}
+
+.commands-section .commands-card .permissions small {
+    font-family: 'Poppins';
+    margin-bottom: 6px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787;
+}
+
+.commands-section .commands-card .cmd-card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.commands-section .commands-card .cmd-card-head h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.commands-section .commands-card .cmd-card-head .cmd-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #5865F2 -4.46%, #910DF9 119.64%);
+    border-radius: 6px;
+    padding: 6px 10px;    
+}
+
+/* Commands page end */
+
+/* Branding page stsrt */
+
+.branding-section .section-heading {
+    margin-bottom: 100px;
+}
+
+.branding-section .section-heading h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight:800;
+    margin-bottom: 24px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.branding-section .section-heading p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.branding-section .branding-logo-card h2 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.branding-section .branding-logo-card p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #FFFFFF;   
+}
+
+.branding-section .branding-logo-card img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 14px;
+}
+
+.branding-section .branding-btn .btn {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: linear-gradient(90.48deg, #958DD8 -12.6%, #5669BA 116.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border: 1px solid #B04BFF;
+}
+
+/* Branding page end */
 
 
 /* Main Styling Start */
