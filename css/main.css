@@ -26,6 +26,10 @@ a {
     padding: 70px 0;
 }
 
+.padding {
+    padding-top: 70px;
+}
+
 .navbar {
     padding: 30px 0;
     border-bottom: 2px solid #2D2E31;
@@ -150,7 +154,7 @@ a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 30px;
     color: #FFFFFF;    
 }
 
@@ -228,9 +232,138 @@ a {
     padding: 15px 25px;
 }
 
-
-
 /* home main styling end */
+
+/* feature section start */
+.feature-info .cta h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 30px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.feature-info .cta .feature-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(90.48deg, #958DD8 -12.6%, #5669BA 116.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 8px 25px;
+    border: 1px solid #B04BFF;
+    border-radius: 5px;
+}
+
+/* feature section end */
+
+/* About page start */
+
+.about-section .section-heading h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFFFFF; 
+}
+
+.about-card {
+    background: #242528;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.about-card .card-head {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #2D2E31;
+}
+
+.about-card .card-head .profile-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.about-card .card-head .profile-img img {
+    width: 100%;
+}
+
+.about-card .card-head .profile-info h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.about-card .card-head .profile-info .pro-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    padding: 7px 11px;
+    border-radius: 5px;
+}
+
+.bg-red {
+    background: #FF4646;
+}
+
+.bg-blue {
+    background: #5865F2;
+}
+
+.bg-orange {
+    background: #FF5C00;
+}
+
+.bg-green {
+    background: #24FF00;
+}
+
+.bg-lightblue {
+    background: #589FF2;
+}
+
+.bg-pink {
+    background: #9C58F2;
+}
+
+.about-card .card-content {
+    padding: 20px;
+}
+
+.about-card .card-content small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #737373;
+}
+
+.about-card .card-content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;    
+}
+
+
+
+/* About page end */
 
 
 /* Main Styling Start */
