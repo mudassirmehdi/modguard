@@ -99,6 +99,10 @@ a {
     background: linear-gradient(82.73deg, #367AFF -5.12%, #B04BFF 103.35%);
 }
 
+.server-section {
+    background: #1B1C1F;
+}
+
 .server-section .section-heading h2 {
     font-family: 'Poppins';
     font-style: normal;
@@ -129,6 +133,11 @@ a {
     color: #FFFFFF;   
 }
 
+.server-section .server-items .server-item-content img {
+    width: 16px;
+    margin-left: 10px;
+}
+
 .server-section .server-items .server-item-content small {
     font-family: 'Poppins';
     font-style: normal;
@@ -136,6 +145,90 @@ a {
     font-size: 14px;
     color: #656565;
 }
+
+.feature-section .section-heading h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    color: #FFFFFF;    
+}
+
+.feature-section .feature-items h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 26px;
+    color: #FFFFFF
+}
+
+.feature-section .feature-items .border-bottom {
+    width: 100%;
+    border: none !important;
+    outline: none;
+    color: transparent;
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+.pink {
+    background: linear-gradient(67deg, #B75BFF -1.65%, #910DF9 101.36%);
+}
+
+.dark-pink {
+    background: linear-gradient(90deg, #5B76FF -1.65%, #3927FF 101.36%);
+}
+
+.red {
+    background: linear-gradient(90deg, #FF5B79 -1.65%, #F90D1C 101.36%);
+}
+
+.blue {
+    background: linear-gradient(90deg, #5B89FF -1.65%, #27D8FF 101.36%);
+}
+
+.feature-section .feature-items p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    word-spacing: 1px;
+    padding: 0;
+    margin-bottom: 30px;
+    color: #BEBEBE;    
+}
+
+.feature-section .feature-items img {
+    width: 100%;
+}
+
+.madguard-info {
+    background: linear-gradient(90deg, #5865F2 0.01%, #910DF9 100%);
+}
+
+.madguard-info .visit-modguard h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 40px;
+    font-size: 45px;
+    color: #FFFFFF
+}
+
+.madguard-info .visit-modguard .invite-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 16px; 
+    padding: 15px 25px;
+}
+
+
 
 /* home main styling end */
 
