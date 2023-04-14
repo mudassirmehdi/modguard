@@ -48,6 +48,12 @@ a {
     text-fill-color: transparent;
 }
 
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
 .navbar .navbar-nav .nav-item .nav-link {
     font-family: 'Poppins';
     font-weight: 400;
@@ -154,7 +160,7 @@ a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 36px;
     color: #FFFFFF;    
 }
 
@@ -770,3 +776,16 @@ main .imprint-content  p {
 }
 
 
+@media only screen and (max-width: 600px) {
+    .navbar .navbar-nav .nav-item .nav-btn {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin: 5px 0px;
+    }
+
+    .server-section .server-items { 
+        flex-wrap: wrap;  
+    } 
+} 
