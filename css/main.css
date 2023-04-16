@@ -712,6 +712,183 @@ main .imprint-content  p {
 /* Main Styling End */
 
 
+/* Status Page Start */
+
+.bg-black {
+    background: rgba(36, 37, 40, 0.7);
+}
+
+.bg-green {
+    background: rgba(0, 255, 41, 0.7);
+}
+
+.bg-red1 {
+    background: rgba(230, 0, 2, 0.7);
+}
+
+.bg-gray {
+    background: rgba(94, 98, 94, 0.7)
+}
+
+.bg-pink1 {
+    background: rgba(202, 0, 253, 0.7);
+}
+
+.bg-midyellow {
+    background: rgba(211, 191, 4, 0.7)
+}
+
+.bg-gold {
+    background: rgba(253, 137, 0, 0.7);
+}
+
+main .status-section .status-bar {
+    height: 70px;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin-bottom: 40px;
+}
+
+main .status-section .status-bar p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;   
+}
+
+main .status-bars .status-bar {
+    color: #fff;
+    width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-bars .status-bar div h4 {
+    margin-bottom: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;    
+    color: #FFFFFF;
+}
+
+.status-bars .status-bar div small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #969696;
+}
+
+.status-bars .status-bar div span {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.status-bar-services .service-card {
+    background: #242528;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.status-bar-services .service-card .card-content h4 {
+    font-family: 'Poppins';
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.status-bar-services .service-card .card-content small {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #969696;
+}
+
+main .server-cluster .server-cluster-card {
+    background: #242528;
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    height: 500px;
+}
+
+.server-cluster .server-cluster-card .server-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.server-cluster .server-cluster-card .server-card-head h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.server-cluster .server-cluster-card .server-card-head .badge {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 6px 15px;
+    background: linear-gradient(90deg, rgba(0, 255, 41, 0.7) 0%, rgba(0, 253, 25, 0.7) 99.99%);
+    border-radius: 6px
+}
+
+.server-cluster .server-cluster-card .server-card-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.server-cluster .server-cluster-card .server-card-body .card-badge {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.server-cluster .server-cluster-card .server-card-body .card-badge h6 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.server-cluster .server-cluster-card .server-card-body .card-badge span, small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;   
+    color: #1B1B1B;
+}
+
+
+
+
+/* Status Page End */
+
+
 
 
 /* footer section start */
