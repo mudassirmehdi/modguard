@@ -880,7 +880,6 @@ main .server-cluster .server-cluster-card {
     font-size: 14px;
     display: inline-block;
     padding: 6px 15px;
-    background: linear-gradient(90deg, rgba(0, 255, 41, 0.7) 0%, rgba(0, 253, 25, 0.7) 99.99%);
     border-radius: 6px
 }
 
@@ -902,14 +901,14 @@ main .server-cluster .server-cluster-card {
 .server-cluster .server-cluster-card .server-card-body .card-badge h6 {
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .server-cluster .server-cluster-card .server-card-body .card-badge span, small {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;   
+    font-size: 13px;   
     color: #1B1B1B;
 }
 
