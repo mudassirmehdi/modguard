@@ -880,14 +880,15 @@ main .server-cluster .server-cluster-card {
     font-size: 14px;
     display: inline-block;
     padding: 6px 15px;
-    border-radius: 6px
+    server-cluster-card    border-radius: 6px
 }
 
 .server-cluster .server-cluster-card .server-card-body {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 16px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* gap: 16px; */
+
 }
 
 .server-cluster .server-cluster-card .server-card-body .card-badge {
@@ -901,7 +902,7 @@ main .server-cluster .server-cluster-card {
 .server-cluster .server-cluster-card .server-card-body .card-badge h6 {
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .server-cluster .server-cluster-card .server-card-body .card-badge span, small {
