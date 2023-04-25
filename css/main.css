@@ -1140,7 +1140,7 @@ main .guilds-details-section .guilds-details-sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 80vh;
+    height: 100vh;
     color: #fff;
 }
 
@@ -1201,7 +1201,6 @@ main .guilds-details-section .guilds-details-sidebar .sidebar-head .card-content
 main .guilds-details-section .guilds-details-sidebar .sidebar-head .sidebar-links ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     padding: 0 !important;
 }
 
@@ -1213,7 +1212,6 @@ main .guilds-details-section .guilds-details-sidebar .sidebar-head .sidebar-link
     font-size: 16px;
     display: inline-block;
     width: 100%;
-    line-height: 24px;
     background: linear-gradient(90.48deg, #00FF66 -12.6%, #367AFF -12.58%, #B04BFF 116.14%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1222,11 +1220,15 @@ main .guilds-details-section .guilds-details-sidebar .sidebar-head .sidebar-link
     border: 1px solid #367AFF;
     padding: 6px;
     text-align: center;
-    border-radius: 5px;   
+    border-radius: 5px;
+    margin-bottom: 8px;   
 }
 
 main .guilds-details-section .guilds-details-sidebar .sidebar-footer {
     margin: 0 auto;
+    border: 1px solid #FFE600;
+    padding: 8PX 20PX;
+    border-radius: 5PX;
 }
 
 main .guilds-details-section .guilds-tag {
