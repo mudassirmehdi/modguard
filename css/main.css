@@ -993,10 +993,11 @@ main .server-cluster .server-cluster-card {
 /* 401 PAGE START */
 
 main .main-heading {
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 main .main-heading h1 {
