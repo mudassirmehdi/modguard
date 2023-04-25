@@ -990,6 +990,143 @@ main .server-cluster .server-cluster-card {
     text-fill-color: transparent;
 }
 
+/* 401 PAGE START */
+
+main .main-heading {
+    height: 75vh;
+}
+
+main .main-heading h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    padding: 0;
+    font-size: 100px;
+    background: linear-gradient(90deg, #367AFF -1.6%, #B04BFF 102.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+}
+
+main .main-heading p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    padding: 0;
+    margin-top: -20px;
+    color: #878787
+}
+
+/* 401 PAGE END */
+
+/* GUILDS PAGE START */
+
+main .guilds-section {
+    height: 100vh;
+}
+
+main .guilds-section .guilds-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #242528;
+    border-radius: 12px;
+    padding: 15px;
+    color: #fff;
+}
+
+main .guilds-section .guilds-card .card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .guilds-section .guilds-card .card-content img {
+    width: 80px;
+}
+
+main .guilds-section .guilds-card .card-content .card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+main .guilds-section .guilds-card .card-content .card-title .title-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+main .guilds-section .guilds-card .card-content .card-title .title-head h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+main .guilds-section .guilds-card .card-content .card-title .title-head .guilds-badge {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 5px 12px;
+    display: inline-block;
+    background: linear-gradient(90deg, #F97E0D -4.46%, #F92A0D 119.64%);
+    border-radius: 6px;
+}
+
+main .guilds-section .guilds-card .card-content .card-title .title-id small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #969696;
+    padding: 0;
+    margin: 0;
+}
+
+main .guilds-section .guilds-card .card-button .guilds-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+.manage-btn {
+    background: linear-gradient(90.48deg, #00FF0A -12.6%, #8FFF00 116.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border: 2px solid #00FF0A;
+}
+
+.locked-btn {
+    background: linear-gradient(90.48deg, #FF9900 -12.6%, #FAFF00 116.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border: 2px solid #FF8A00;
+}
+
+.protect-btn {
+    background: linear-gradient(90.48deg, #B60000 -12.6%, #FF0000 116.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border: 2px solid #B6000A;    
+}
+
+/* GUILDS PAGE END */
+
 
 @media only screen and (max-width: 600px) {
     .navbar .navbar-nav .nav-item .nav-btn {
