@@ -1224,12 +1224,22 @@ main .guilds-details-section .guilds-details-sidebar .sidebar-head .sidebar-link
     margin-bottom: 8px;   
 }
 
-main .guilds-details-section .guilds-details-sidebar .sidebar-footer {
+/* main .guilds-details-section .guilds-details-sidebar .sidebar-footer {
     margin: 0 auto;
-    border: 1px solid #FFE600;
-    padding: 8PX 20PX;
-    border-radius: 5PX;
-}
+    /* border: 1px solid #FFE600; */
+    padding: 10px 20px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 0)) 5;
+
+    -webkit-border-radius: 5px; 
+} */
 
 main .guilds-details-section .guilds-tag {
     background: #242528;
