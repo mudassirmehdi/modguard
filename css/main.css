@@ -1388,6 +1388,16 @@ main .guilds-details-section .guilds-tag small {
     border-radius: 12px;
 }
 
+.leaderboard-table-section table tbody .table-progress .progress { 
+    background: #1f2023; 
+}
+
+
+.leaderboard-table-section table tbody tr {
+    align-items: center;
+}
+
+
 .leaderboard-table-section .table-btn {
     font-family: 'Poppins';
     font-style: normal;
