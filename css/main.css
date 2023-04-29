@@ -1453,3 +1453,160 @@ main .guilds-details-section .guilds-tag small {
         flex-wrap: wrap;  
     } 
 } 
+
+.modguard-card .card-logo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px; 
+
+
+    background: linear-gradient(90deg, #367AFF -1.6%, #B04BFF 102.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.modguard-card {
+    background: rgba(36, 37, 40, 0.7);
+    border-radius: 12px;
+}
+
+
+.modguard-card table thead {
+    /* background: rgba(36, 37, 40, 0.7); */
+    color: #fff;
+    padding: 10px;
+}
+
+.modguard-card table thead tr th {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.modguard-card table tbody {
+    color: #fff;
+}
+
+.modguard-card table tr {
+    /* background: rgba(36, 37, 40, 0.7); */
+    /* border-radius: 12px; */
+    border: none;
+    margin-top: 10px;
+    align-items: center;
+} 
+
+.modguard-card table tr td,
+.modguard-card table tr th {
+    background: transparent !important;
+}
+.modguard-card table  {
+    border-collapse: separate; 
+    border-spacing:0 20px;
+}
+
+.modguard-card table tr td:first-child,
+.modguard-card table tr th:first-child {
+  border-radius: 12px 0 0 12px;
+  /* border: 1px solid #000; */
+}
+ 
+.modguard-card table tr td:last-child,
+.modguard-card table tr th:last-child {
+  border-radius: 0 12px 12px 0;
+  /* border: 1px solid #000; */
+}
+ 
+ 
+
+.modguard-card table tbody .table-progress .progress-bar {
+    color: rgba(36, 37, 40, 0.7);
+    background: linear-gradient(90deg, #367AFF -1.31%, rgba(176, 75, 255, 0) 121.69%);
+    filter: blur(2px) !important;
+    border-radius: 12px;
+}
+
+.modguard-card table tbody .table-progress .progress { 
+    background: rgba(176, 75, 255, 1); 
+    /* filter: blur(2px); */
+    border-radius: 12px;
+    
+}
+
+
+.modguard-card table tr td,
+.modguard-card table tr th {
+    /* align-items: center; */
+    padding: 12px 20px;
+
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.modguard-card .card-header {
+   border: none !important;
+   background-color: transparent !important;
+}
+ 
+.modguard-card .support-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: rgba(36, 37, 40, 0.7); */
+    border-radius: 12px;
+}
+
+.modguard-card .support-card .card-item-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.modguard-card .support-card .card-item-left img {
+    width: 100px;
+}
+
+.modguard-card .support-card .card-item-left div h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.modguard-card .support-card .card-item-left div small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #969696;
+}
+
+.modguard-card .support-card .card-item-right .service-card {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 10px;
+    background: #242528;
+    border-radius: 12px;
+}
+
+.modguard-card .support-card .card-item-right .service-card .card-content h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.modguard-card .support-card .card-item-right .service-card .card-content small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #969696
+}
