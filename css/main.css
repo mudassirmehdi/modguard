@@ -1390,13 +1390,13 @@ main .guilds-details-section .guilds-tag small {
 
 .leaderboard-table-section table tbody .table-progress .progress-bar {
     color: rgba(36, 37, 40, 0.7);
-    background: linear-gradient(90deg, #367AFF -1.31%, rgba(176, 75, 255, 0) 121.69%);
-    filter: blur(2px) !important;
+    background: linear-gradient(90deg, #367AFF -1.31%, rgba(176, 75, 255, 1) 121.69%);
+    /* filter: blur(2px) !important; */
     border-radius: 12px;
 }
 
 .leaderboard-table-section table tbody .table-progress .progress { 
-    background: rgba(176, 75, 255, 1); 
+    background: rgb(31, 32, 35); 
     /* filter: blur(2px); */
     border-radius: 12px;
     
