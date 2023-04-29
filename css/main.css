@@ -1317,7 +1317,7 @@ main .guilds-details-section .guilds-tag small {
 }
 
 .leaderboard-table-section table thead {
-    background: rgba(36, 37, 40, 0.7);
+    /* background: rgba(36, 37, 40, 0.7); */
     color: #fff;
     padding: 10px;
 }
@@ -1331,13 +1331,35 @@ main .guilds-details-section .guilds-tag small {
     color: #fff;
 }
 
-.leaderboard-table-section table tbody tr {
-    background: rgba(36, 37, 40, 0.7);
-    border-radius: 12px;
+.leaderboard-table-section table tr {
+    /* background: rgba(36, 37, 40, 0.7); */
+    /* border-radius: 12px; */
     border: none;
     margin-top: 10px;
     align-items: center;
+} 
+
+.leaderboard-table-section table tr td,
+.leaderboard-table-section table tr th {
+    background: rgba(36, 37, 40, 0.7);
 }
+.leaderboard-table-section table  {
+    border-collapse: separate; 
+    border-spacing:0 20px;
+}
+
+.leaderboard-table-section table tr td:first-child,
+.leaderboard-table-section table tr th:first-child {
+  border-radius: 12px 0 0 12px;
+  /* border: 1px solid #000; */
+}
+ 
+.leaderboard-table-section table tr td:last-child,
+.leaderboard-table-section table tr th:last-child {
+  border-radius: 0 12px 12px 0;
+  /* border: 1px solid #000; */
+}
+
 
 .leaderboard-table-section table tbody .table-user {
     display: flex;
@@ -1369,17 +1391,25 @@ main .guilds-details-section .guilds-tag small {
 .leaderboard-table-section table tbody .table-progress .progress-bar {
     color: rgba(36, 37, 40, 0.7);
     background: linear-gradient(90deg, #367AFF -1.31%, rgba(176, 75, 255, 0) 121.69%);
-    filter: blur(2px);
+    filter: blur(2px) !important;
     border-radius: 12px;
 }
 
 .leaderboard-table-section table tbody .table-progress .progress { 
-    background: #1f2023; 
+    background: rgba(176, 75, 255, 1); 
+    /* filter: blur(2px); */
+    border-radius: 12px;
+    
 }
 
 
-.leaderboard-table-section table tbody tr {
-    align-items: center;
+.leaderboard-table-section table tr td,
+.leaderboard-table-section table tr th {
+    /* align-items: center; */
+    padding: 12px 20px;
+
+    vertical-align: middle;
+    display: table-cell;
 }
 
 
