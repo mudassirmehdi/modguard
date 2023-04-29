@@ -1534,6 +1534,9 @@ main .guilds-details-section .guilds-tag small {
     
 }
 
+.table-responsive {
+    overflow: hidden !important;
+}
 
 .modguard-card table tr td,
 .modguard-card table tr th {
