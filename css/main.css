@@ -18,6 +18,22 @@ img {
 }
 
 
+.btn-site {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(90.48deg, #958DD8 -12.6%, #5669BA 116.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 8px 25px;
+    border: 1px solid #B04BFF;
+    border-radius: 5px;
+}
+
 ::-webkit-scrollbar-track {
   background:  linear-gradient(90deg, #5865F2 0.01%, #910DF9 100%);
 }
@@ -44,6 +60,17 @@ a {
     text-decoration: none;
 }
 
+.alert-success {
+    background: rgba(0, 255, 41, 0.7);
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+    border: none;
+}
 .section-padding {
     padding: 70px 0;
 }
@@ -692,11 +719,30 @@ main .page-heading {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
-    font-size: 30px; 
+    font-size: 40px; 
     color: #FFFFFF;
     padding: 40px 0;
 }
 
+main .page-subheading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    background: linear-gradient(90deg, #367AFF 3.96%, #B04BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+main .page-subheading img {
+    width: 40px;
+    margin-left: 10px;
+}
 
 .exclamation-section {
     background: linear-gradient(90deg, #5865F2 0.01%, #910DF9 100%);
@@ -1028,7 +1074,7 @@ main .main-heading p {
 /* GUILDS PAGE START */
 
 main .guilds-section {
-    height: 100vh;
+    height: auto;
 }
 
 main .guilds-section .guilds-card {
@@ -1378,6 +1424,21 @@ main .guilds-details-section .guilds-tag small {
     font-size: 18px;
     color: #FFFFFF;
     margin-bottom: 0;
+    position: relative;
+}
+
+.leaderboard-table-section table tbody .table-user h6 .online-status {
+    width: 12px;
+    height: 12px;
+    margin-left: 1px;
+    margin-top: -3px;
+    display: inline-block;
+    background: #00FD19;
+    border-radius: 50%; 
+
+    /* position: absolute;
+    top: -5px;
+    right: -20px; */
 }
 
 .leaderboard-table-section table tbody .table-user small {
@@ -1393,8 +1454,17 @@ main .guilds-details-section .guilds-tag small {
     background: linear-gradient(90deg, #367AFF -1.31%, rgba(176, 75, 255, 1) 121.69%);
     /* filter: blur(2px) !important; */
     border-radius: 12px;
-    c
 }
+
+ 
+.leaderboard-table-section table tbody .table-progress .circle_percent {font-size:200px; width:50px; height:50px; position: relative; background: #0d0d0e; border-radius:50%; overflow:hidden; display:inline-block; }
+.leaderboard-table-section table tbody .table-progress .circle_inner {position: absolute; left: 0; top: 0; width: 50px; height: 50px; clip:rect(0 50px 50px 25px);}
+.leaderboard-table-section table tbody .table-progress .round_per {position: absolute; left: 0; top: 0; width: 50px; height: 50px; background: orange; clip:rect(0 50px 50px 25px); transform:rotate(180deg); transition:1.05s;}
+.leaderboard-table-section table tbody .table-progress .percent_more .circle_inner {clip:rect(0 .5em 50px 0em);}
+.leaderboard-table-section table tbody .table-progress .percent_more:after {position: absolute; left: .5em; top:0em; right: 0; bottom: 0; background: orange; content:'';}
+.leaderboard-table-section table tbody .table-progress .circle_inbox {position: absolute; top: 3px; left: 3px; right: 3px; bottom: 3px; background: #222426; z-index:3; border-radius: 50%;}
+.leaderboard-table-section table tbody .table-progress .percent_text {position: absolute; color: #fff; font-size: 10px; left: 50%; top: 50%; transform: translate(-50%,-50%); z-index: 3;}
+
 
 .leaderboard-table-section table tbody .table-progress .progress { 
     background: rgb(31, 32, 35); 
@@ -1434,7 +1504,36 @@ main .guilds-details-section .guilds-tag small {
     text-fill-color: transparen
 }
 
+.leaderboard-table-section table tbody .table-category {
+    background: #303033;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
+    color: #FFFFFF;
+}
 
+.leaderboard-table-section table tbody .table-comment {
+    background: #303033;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; 
+    color: #FFFFFF;
+} 
+
+.leaderboard-table-section table tbody .table-proof ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px; 
+    line-height: 30px;
+    color: #BC7979;
+}
 
 
 
@@ -1613,4 +1712,153 @@ main .guilds-details-section .guilds-tag small {
     font-weight: 300;
     font-size: 14px;
     color: #969696
+}
+
+.global-form {
+    background: #242528;
+    border-radius: 12px;
+    padding: 50px;
+}
+
+.global-form .form-bottom-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    
+    color: #7D7D7D;
+}
+
+
+.global-form .form-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.global-form form .form-group label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px; 
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.global-form form .form-group input {
+    background: #FFFFFF;
+    border-radius: 12px;
+    height: 54px;
+}
+
+.account-bottom {
+    background: #242528;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.account-bottom h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.account-bottom p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 20px; 
+    color: #7D7D7D;
+ }
+
+.account-bottom .btn-success-gradient {
+    padding: 10px 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00FF29 -1.9%, #00FFC2 102.53%); 
+
+
+    cursor: pointer;
+}
+
+.account-bottom .btn-success-gradient span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    
+    background: linear-gradient(90.48deg, #00FF29 -12.6%, #00FFC2 116.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    z-index: 999;
+    position: relative;
+}
+
+.account-bottom .btn-success-gradient::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    background: #1F2023;
+    border-radius: 5px;
+}
+
+
+.account-bottom .btn-danger-gradient {
+    padding: 10px 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #FF3636 -1.9%, #B04BFF 102.53%);  
+    cursor: pointer;
+}
+
+.account-bottom .btn-danger-gradient span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    background: linear-gradient(90.48deg, #FF0000 -12.6%, #B04BFF 116.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    z-index: 9999;
+
+    position: relative;
+}
+
+.account-bottom .btn-danger-gradient::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    background: #1F2023;
+    border-radius: 5px;
 }
