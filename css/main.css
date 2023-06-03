@@ -1552,6 +1552,11 @@ main .guilds-details-section .guilds-tag small {
     .server-section .server-items { 
         flex-wrap: wrap;  
     } 
+
+    .leaderboard-table-section table tr td, 
+    .leaderboard-table-section table tr th {
+            padding: 12px 5px;
+    }
 } 
 
 .modguard-card .card-logo {
